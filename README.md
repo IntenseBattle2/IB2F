@@ -12,7 +12,6 @@ By default, IB2F comes with no extra protection. However, plugins may provide ex
 # What do I need to use IB2F?
 IB2F works in anything that processes HTML, JavaScript, and CSS. By default, IB2F uses HTML5 for flash features, but plugins may be used to support older versions of HTML.
 
-ð
 # What are IB2F plugins and what can they do?
 IB2F plugins are pieces of javascript code that add extra functionality to IB2F. 
 Plugins may allow IB2F to use different protocols, take different inputs or handle inputs differently, or increase compatibility with another technology or device.
