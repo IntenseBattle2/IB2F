@@ -4,4 +4,13 @@
 /*
  * Add GNU GPL text here
 */
-window.onload=function(){var platform=window.navigator.platform,os=ib2f.config.runtime.os,userAgent=window.navigator.userAgent;if(/Android/.test(userAgent)){os="Android";}else if(!os && /Linux/.test(platform)){os="Linux";}else if(!os && /ChrOS/.test(platform)){os="ChromeOS";}else if(!os && /2Term/.test(platform)){os="2Term/IB2OS";}else{os=window.navigator.platform;}}
+var ib2f={config:{runtime:{os:null}}};
+window.onload=function(){
+	var platform=window.navigator.platform,userAgent=window.navigator.userAgent,os=ib2f.config.runtime.os;
+	if(/Android/.test(userAgent)){os="Android";alert("Android");alert(os);
+	}else if(!os && /Linux/.test(platform)){os="Linux";alert("Linux");alert(os);
+	}else if(!os && /ChrOS/.test(platform)){os="ChromeOS";alert("ChromeOS");alert(os);
+	}else if(!os && /2Term/.test(platform)){os="2Term/IB2OS";alert("2Term/IB2OS");alert(os);
+	}else{os=platform;alert("platform");alert(os);
+	}
+};
