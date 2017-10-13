@@ -13,3 +13,9 @@ ib2f.config = {
   },
   "defaultLayerCSS": "top:0px;left:0px;width:100%;height:100%;position:absoulte;display:none;z-index:"+(ib2f.layers.length+1)+";"
 };
+/*
+ * include rtcheck.js
+*/
+/*
+ * inlcude display.js
+*/
