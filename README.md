@@ -18,4 +18,4 @@ Plugins may allow IB2F to use different protocols, take different inputs or hand
 For example, a flash game might use an engine to support console controllers or add touch controls to people playing on mobile, or a bank application might use a plugin to encrypt data being sent to their servers and back.
 
 # Where can I find out more?
-More information is coming soon in the Wiki!
+More information will be rolled out on the wiki as features come in!
