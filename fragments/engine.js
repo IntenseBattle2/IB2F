@@ -5,11 +5,8 @@
  * Add GNU GPL text here
 */
 ib2f.engine={};
-ib2f.engine.add=function(object.name){
-  if(typeof object.function!="function"){
-    console.warn("engine.add: Object passed is not a function; please be careful!");
-  }
-  ib2f.engine[object.name]={init:object.function};
+ib2f.engine.add=function(jsurl){
+  window.location="javascript:(function(){var el=document.createElement("script");el.src=jsurl;document.body.appendChild(el);})();";
 };
 ib2f.engine.init(name){
   ib2f.engine[name].init(false,null);

@@ -19,3 +19,11 @@ ib2f.config = {
 /*
  * inlcude display.js
 */
+/*
+ * include engine.js
+*/
+setup();
+/*
+ * include load.js
+*/
+main();
